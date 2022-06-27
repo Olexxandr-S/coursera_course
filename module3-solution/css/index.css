@@ -1,0 +1,59 @@
+body {
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+
+#nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 2px solid black;
+  color: black;
+}
+
+.navbar-brand p {
+  font-size: 25px;
+  color: black;
+}
+
+.navbar-brand a:focus,
+.navbar-brand a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-list a {
+  text-align: center;
+  color: black;
+}
+
+#nav-list a:hover {
+  background-color: yellowgreen;
+  color: black;
+}
+
+#home {
+  margin-bottom: 40px;
+  color: black;
+}
+
+.row {
+  position: relative;
+  float: left;
+  text-decoration: none;
+}
+
+.row > div > article {
+  background-color: gray;
+  text-align: justify;
+  margin-bottom: 20px;
+  padding: 15px;
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .row > div > article {
+    width: 80%;
+    margin: 20px auto 0;
+  }
+}
